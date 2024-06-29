@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "book_nook.apps.BookNookConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
